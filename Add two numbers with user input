@@ -1,0 +1,8 @@
+# Add two numbers with user input
+
+num1 = float(input("Enter the number here : "))   # First input
+num2 = float(input("Enter the number here : "))   # Second input
+
+sum = num1 + num2    
+
+print("The sum of {0} and {1} is {2}".format(num1, num2, sum))
