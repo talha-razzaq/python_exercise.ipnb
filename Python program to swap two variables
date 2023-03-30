@@ -1,0 +1,26 @@
+# Python program to swap two variables
+
+# take user input
+x = input("Enter the number here : ")
+y = input("Enter the number here : ")
+
+# Create temporary varible and swap the values
+
+temp = y
+y = x
+x = temp
+
+print("The value of x is after swappping : {}".format(x))
+print("The value of y is after swappping : {}".format(y))
+
+#-----------------------------------------------------------------------------
+
+#Another way to create swap value
+
+a = input("Enter the number : ")
+b = input("Enter the number : ")
+
+x, y = y, x
+
+print("X = ", x)
+print("Y = ", y)
