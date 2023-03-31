@@ -1,0 +1,15 @@
+# Python Program to Check if a Number is Positive, Negative or 0
+
+
+##First take input from user
+
+num = int(input("Enter a number : "))
+
+if num > 0:
+    print(num, "is positive number")
+
+elif num == 0:
+    print(num, "is zero number")
+
+else:
+    print(num, "is negative number ")
