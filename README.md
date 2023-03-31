@@ -1,1 +1,1 @@
-# python_project.ipnb
+# python_exercise.ipnb
