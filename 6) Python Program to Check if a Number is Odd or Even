@@ -1,0 +1,13 @@
+# Python Program to Check if a Number is Odd or Even
+
+num = int(input("Enter the number : "))           # take user input
+
+
+# why we have choose 2 for odd & even?
+# because whenever we checks whether this digit is even or odd, we divid it on 2.
+
+if (num % 2) == 0:
+    print("{0} is Even number".format(num))
+
+else:
+    print("{1} is Odd number".format(num))
